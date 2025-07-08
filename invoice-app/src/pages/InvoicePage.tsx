@@ -12,7 +12,6 @@ export default function InvoicesPage() {
   useEffect(() => {
     fetchInvoices(1, 5);
   }, []);
-  useEffect(() => {}, [invoices]);
   useEffect(() => {
     fetchInvoices(pagination.page + 1, pagination.pageSize);
   }, [pagination]);

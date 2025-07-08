@@ -44,8 +44,8 @@ export default function NewInvoicePage() {
         id: Date.now(),
         product: "",
         subproduct: "",
-        quantity: "",
-        unitPrice: "",
+        quantity: 1,
+        unitPrice: 0,
       },
     ]);
   };
